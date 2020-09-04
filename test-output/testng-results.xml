@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="firstMavenProject" duration-ms="32175" started-at="2020-09-01T15:39:44 PDT" finished-at="2020-09-01T15:40:17 PDT">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="32175" started-at="2020-09-01T15:39:44 PDT" finished-at="2020-09-01T15:40:17 PDT">
+      <class name="com.firstMavenProject.testCases.TC_AddCustomerTest_003">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.firstMavenProject.testCases.TC_AddCustomerTest_003@305fd85d]" name="setup" is-config="true" duration-ms="6906" started-at="2020-09-01T15:39:54 PDT" finished-at="2020-09-01T15:40:01 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="addNewCustomer()[pri:0, instance:com.firstMavenProject.testCases.TC_AddCustomerTest_003@305fd85d]" name="addNewCustomer" duration-ms="14863" started-at="2020-09-01T15:40:01 PDT" finished-at="2020-09-01T15:40:16 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewCustomer -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firstMavenProject.testCases.TC_AddCustomerTest_003@305fd85d]" name="tearDown" is-config="true" duration-ms="676" started-at="2020-09-01T15:40:16 PDT" finished-at="2020-09-01T15:40:17 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.firstMavenProject.testCases.TC_AddCustomerTest_003 -->
+      <class name="com.firstMavenProject.testCases.TC_firstMavenProject_001">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.firstMavenProject.testCases.TC_firstMavenProject_001@1877ab81]" name="setup" is-config="true" duration-ms="7448" started-at="2020-09-01T15:39:45 PDT" finished-at="2020-09-01T15:39:52 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.firstMavenProject.testCases.TC_firstMavenProject_001@1877ab81]" name="loginTest" duration-ms="1247" started-at="2020-09-01T15:39:52 PDT" finished-at="2020-09-01T15:39:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.firstMavenProject.testCases.TC_firstMavenProject_001@1877ab81]" name="tearDown" is-config="true" duration-ms="811" started-at="2020-09-01T15:39:53 PDT" finished-at="2020-09-01T15:39:54 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.firstMavenProject.testCases.TC_firstMavenProject_001 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- firstMavenProject -->
+</testng-results>

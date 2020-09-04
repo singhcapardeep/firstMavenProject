@@ -1,0 +1,11 @@
+com\firstMavenProject\testCases\TC_LoginDD_001.class
+com\firstMavenProject\utilities\ReadConfig.class
+com\firstMavenProject\utilities\Reporting.class
+com\firstMavenProject\pageObjects\LoginPage.class
+com\firstMavenProject\testCases\TC_EditCustomerTest_004.class
+com\firstMavenProject\testCases\TC_AddCustomerTest_003.class
+com\firstMavenProject\utilities\XLUtils.class
+com\firstMavenProject\pageObjects\EditCustomerDetails.class
+com\firstMavenProject\pageObjects\AddCustomerPage.class
+com\firstMavenProject\testCases\BaseClass.class
+com\firstMavenProject\testCases\TC_firstMavenProject_001.class

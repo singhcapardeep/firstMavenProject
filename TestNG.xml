@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="firstMavenProject">
+	<listeners>
+		<listener
+			class-name="com.firstMavenProject.utilities.Reporting"/>
+	</listeners>
+	<test name="BankingApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.firstMavenProject.testCases.TC_firstMavenProject_001" />
+			<!--<class name="com.firstMavenProject.testCases.TC_LoginDD_001" />-->
+			<class name="com.firstMavenProject.testCases.TC_AddCustomerTest_003" />
+			<!--<class name="com.firstMavenProject.testCases.TC_EditCustomerTest_004" />-->
+			
+		</classes>
+	</test>
+</suite>
