@@ -34,7 +34,7 @@ public class TC_EditCustomerTest_004 extends BaseClass {
 		}
 		
 		editCustomerDetails.custaddress("Canada");
-		editCustomerDetails.custcity("YNR");
+		editCustomerDetails.custcity("YNP");
 		editCustomerDetails.custstate("HARYANA");
 		editCustomerDetails.custpinno("135001");
 		editCustomerDetails.custtelephoneno("9949589451");

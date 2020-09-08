@@ -117,7 +117,7 @@ public class EditCustomerDetails {
 	public void custsubmit() {
 		btnSubmit.click();
 	}
-	
+	//click continue button
 	public void clickContinue() {
 		linkContinue.click();
 	}
